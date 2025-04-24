@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
+    const alternaContraste = document.getElementById('alterna-contraste')
+
     let tamanhoAtualFonte = 1;
 
     aumentaFonteBotao.addEventListener('click', function () {
@@ -25,5 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 });
+
+alternaContraste.addEventListener('click', function () {
+    document.body.classList.toggle('alto-contraste')
+})
+
 
 
