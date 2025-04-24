@@ -165,14 +165,6 @@ h2 {
     display: none;
 }
 
-.root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
-}
-
-
 .alto-contraste{
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
@@ -197,8 +189,6 @@ h2 {
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)
 }
-
-Ainda no style.css
 
 .alto-contraste #tropicalia {
     background: none;
